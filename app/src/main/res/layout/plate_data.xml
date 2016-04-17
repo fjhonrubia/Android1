@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/plate_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:listSeparatorTextViewStyle"/>
+
+    <ImageView
+        android:id="@+id/plate_image_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/plate_description_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/celery_image_view"
+                android:src="@drawable/celery"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/crustaceans_image_view"
+                android:src="@drawable/crustaceans"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/dairy_image_view"
+                android:src="@drawable/dairy"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/eggs_image_view"
+                android:src="@drawable/eggs"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"/>
+
+            <ImageView
+                android:id="@+id/fish_image_view"
+                android:src="@drawable/fish"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/gluten_image_view"
+                android:src="@drawable/gluten"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/lupin_image_view"
+                android:src="@drawable/lupin"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:visibility="invisible"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/mollucs_image_view"
+                android:src="@drawable/mollucs"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/mustard_image_view"
+                android:src="@drawable/mustard"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/nuts_image_view"
+                android:src="@drawable/nuts"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/peanuts_image_view"
+                android:src="@drawable/peanuts"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/sesame_image_view"
+                android:src="@drawable/sesame"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/soy_image_view"
+                android:src="@drawable/soy"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/sulfitos_image_view"
+                android:src="@drawable/sulfitos"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:visibility="invisible"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/order_plate_notes_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/order_plate_notes"/>
+
+
+</LinearLayout>

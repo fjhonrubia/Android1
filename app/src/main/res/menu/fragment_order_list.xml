@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_calculate_bill"
+          android:icon="@drawable/ic_calculate_bill"
+          android:title="@string/calculate_bill"
+          app:showAsAction="ifRoom|withText"/>
+
+    <item android:id="@+id/menu_item_new_order"
+          android:icon="@drawable/ic_menu_add"
+          android:title="@string/new_order"
+          app:showAsAction="ifRoom|withText"/>
+
+</menu>

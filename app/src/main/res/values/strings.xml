@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FundAndroid</string>
+    <string name="new_order">Nueva orden</string>
+    <string name="order_plate_notes">Annotaciones</string>
+    <string name="create_order">Crear nueva orden</string>
+    <string name="order_title">Orden</string>
+    <string name="plates_list">Lista de Platos</string>
+    <string name="orders_list">Lista de Órdenes</string>
+    <string name="plate_title">Plato</string>
+    <string name="calculate_bill">Cuenta</string>
+    <string name="calculate_bill_title">Cuenta de la mesa</string>
+    <string name="download_plates">Descargar platos</string>
+    <string name="error_download_plates">Error al descargar los platos</string>
+</resources>
